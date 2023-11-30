@@ -1,0 +1,35 @@
+
+### Algoritmo para travessia de modo seguro 
+1. Inicio;
+2. O homem pega a cabra;
+3. O homem entra no barco com a cabra;
+4. O homem navega com o barco até a outra margem do rio;
+5. O homem desce do barco com a cabra;
+6. O homem deixa a cabra na outra margem do rio;
+8. O homem entra no barco;
+9. O homem navega até a margem do rio;
+10. O homem desce do barco;
+11. O homem pega o Lobo;
+12. O homem entra no barco com o Lobo;
+13. O homem navega até a outra margem do rio;
+14. O homem desce do barco com o Lobo;
+15. O homem deixa o lobo na outra margem do rio;
+16. O homem pega a cabra;
+17. O homem entra no barco com a cabra;
+18. O homem navega até a margem do rio;
+19. O homem desce do barco com a cabra;
+20. O homem deixa a cabra na margem do rio;
+21. O homem pega a alfafa;
+22. O homem entra no barco com a alfafa;
+23. O homem navega com o barco até a outra margem do rio;
+24. O homem desce do barco com a alfafa;
+25. O homem deixa a alfafa na outra margem do rio;
+26. O homem entra no barco;
+27. O homem navega até a margem do rio;
+28. O homem desce do barco;
+29. O homem pega a cabra;
+30. O homem entra com a cabra no barco;
+31. O homem navega até a outra margem do rio com a cabra;
+32. O homem desce do barco com a cabra;
+33. O homem deixa a cabra na outra margem do rio;
+34. Fim do algoritmo;  

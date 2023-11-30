@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Validação de Estado Brasileiro</title>
+    <style>
+        /* Estilos simples para o formulário */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 300px;
+            margin: 20px auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .invalido {
+            color: red;
+        }
+        .valido {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <form id="meuFormulario">
+        <label for="estado">Digite a sigla de um estado brasileiro:</label>
+        <input type="text" id="estadoInput" name="estado" placeholder="Ex: SP, RJ, PR...">
+        <input type="submit" value="Verificar">
+    </form>
+
+    <div class="resultado" id="resultado"></div>
+
+    <script>
+        function validarEstado(entrada) {
+            // Expressão regular para validar siglas dos estados brasileiros
+            const regexSiglaEstado = /^(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)$/i;
+
+            // Verificar se a entrada corresponde ao padrão da sigla do estado
+            return regexSiglaEstado.test(entrada);
+        }
+
+        document.getElementById('meuFormulario').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let estadoInput = document.getElementById('estadoInput').value.trim();
+            let resultado = document.getElementById('resultado');
+
+            if (validarEstado(estadoInput)) {
+                resultado.textContent = 'A sigla do estado é válida.';
+                resultado.classList.remove('invalido');
+                resultado.classList.add('valido');
+            } else {
+                resultado.textContent = 'A sigla do estado é inválida.';
+                resultado.classList.remove('valido');
+                resultado.classList.add('invalido');
+            }
+        });
+    </script>
+</body>
+</html>
