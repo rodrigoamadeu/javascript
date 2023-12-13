@@ -1,0 +1,20 @@
+{
+  "name": "javascriptdatamanipulation",
+  "version": "1.0.0",
+  "description": "- Fórmula / Molde dinâmico\r - Coleção de propriedades (atributos)\r - Associáveis (chave / valor)\r - Relação com objetos da vida real\r - Atributos: cor, forma, material, peso, identificação, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "bootstrap": "^5.3.2",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.3.3"
+  }
+}

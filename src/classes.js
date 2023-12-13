@@ -27,7 +27,4 @@ class Cachorro extends Animal{ // subscreve um método que estava herdado
     }
 }
 
-const cachorro = new Cachorro('cachorro')
-cachorro.falar()
-cachorro.comer()
-cachorro.dormir()
+export default Cachorro;
