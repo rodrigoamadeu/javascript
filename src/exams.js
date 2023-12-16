@@ -14,7 +14,7 @@ filteredMonths.forEach(month => {
     toPrint += month.month + ', '
 });
 
-let meses = [30, 30, 30] // array comum
+//let meses = [30, 30, 30] // array comum
 
 // incluir contagem de todos os dias dos meses selecionados
 // Reduce- executa a função com todos os itens do array e devolve um valor único
